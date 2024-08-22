@@ -1,10 +1,4 @@
 function calculateAverage(numbers) {
-  var sum = 0;
-  var count = 0;
-  for (var i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-    count++;
-  }
-  var average = sum / count;
-  return average;
+  // using reduce to get the addition of all the numbers and divide them the array length for the average
+  return numbers.reduce((a, b) => a + b, 0) / numbers.length;
 }
