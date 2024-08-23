@@ -1,3 +1,1 @@
-function reverseString(str) {
-  return [...str].reverse().join("");
-}
+const reverseString = str => [...str].reverse().join("");

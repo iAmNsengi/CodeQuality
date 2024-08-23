@@ -1,3 +1,1 @@
-function discount(totalamount) {
-  return totalamount * (totalamount > 100 ? 0.1 : 0.05);
-}
+const discount = totalAmount => totalAmount * (totalamount > 100 ? 0.1 : 0.05);
