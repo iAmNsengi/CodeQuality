@@ -53,6 +53,3 @@ const integerToRoman = (num: number): string => {
     })
     .join("");
 };
-
-console.log(integerToRoman(499));
-
