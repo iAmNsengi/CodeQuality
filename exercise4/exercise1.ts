@@ -9,4 +9,5 @@ For n = 5678545 the function should return '5,678,545';
 for n = -420902 the function should return '-420,902'.
  */
 
-const numberFormat = (number) => new Intl.NumberFormat().format(number);
+const numberFormat = (number: number): string =>new Intl.NumberFormat().format(number);
+
